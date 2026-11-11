@@ -1,0 +1,12 @@
+[submodule "Plugins/ROSIntegration"]
+	path = Plugins/ROSIntegration
+	url = https://github.com/code-iai/ROSIntegration
+[submodule "Plugins/UE5ScoutMini"]
+	path = Plugins/UE5ScoutMini
+	url = https://github.com/canyueduxuan/UE5ScoutMini.git
+[submodule "Plugins/UE5Sensors"]
+	path = Plugins/UE5Sensors
+	url = https://github.com/canyueduxuan/UE5Sensors.git
+[submodule "Plugins/UE5YOPO"]
+	path = Plugins/UE5YOPO
+	url = https://github.com/canyueduxuan/UE5YOPO.git

@@ -1,0 +1,44 @@
+# Unreal Engine generated files and local caches
+/Binaries/
+/DerivedDataCache/
+/Intermediate/
+/Saved/
+
+# Generated files for source plugins
+/Plugins/**/Binaries/
+/Plugins/**/DerivedDataCache/
+/Plugins/**/Intermediate/
+/Plugins/**/Saved/
+
+# Local IDE settings and generated project files
+/.vs/
+/.vscode/
+/.idea/
+/*.code-workspace
+/*.sln
+/*.slnx
+/*.vcxproj
+/*.vcxproj.filters
+/*.vcxproj.user
+/*.xcodeproj/
+/*.xcworkspace/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.db-shm
+*.VC.db-wal
+*.VC.opendb
+*.opensdf
+*.sdf
+*.opendb
+
+# Operating system metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Keep Content/, Config/, Source/, Build/, and .uproject/.uplugin files.
+# Build/ can contain required platform icons and packaging configuration.
+# Do not globally ignore DLLs or libraries: plugins may vendor dependencies.
