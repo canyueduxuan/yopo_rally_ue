@@ -10,7 +10,7 @@ public class yopo_rally_ue : ModuleRules
 	
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
 
-		PrivateDependencyModuleNames.AddRange(new string[] { "ROSIntegration", "ScoutMiniSimulation" });
+		PrivateDependencyModuleNames.AddRange(new string[] { "ROSIntegration", "ScoutMiniSimulation", "UE5YOPO", "UE5Sensors", "ProceduralMeshComponent", "ImageWrapper" });
 		// Project-local message converters extend the existing plugin without editing it.
 		PrivateIncludePaths.Add(System.IO.Path.Combine(ModuleDirectory, "../../Plugins/ROSIntegration/Source/ROSIntegration/Private"));
 		PrivateIncludePaths.Add(System.IO.Path.Combine(ModuleDirectory, "../../Plugins/ROSIntegration/Source/ROSIntegration/Private/rosbridge2cpp"));
@@ -24,3 +24,4 @@ public class yopo_rally_ue : ModuleRules
 		// To include OnlineSubsystemSteam, add it to the plugins section in your uproject file with the Enabled attribute set to true
 	}
 }
+

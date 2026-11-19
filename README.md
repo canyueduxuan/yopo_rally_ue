@@ -1,5 +1,5 @@
 # YOPO-Rally 项目UE环境适配
-目前该UE环境只能用于YOPO-Rally运行，不能收集YOPO-Rally的数据集
+目前该UE环境能用于YOPO-Rally推理，同时包含收集YOPO-Rally的数据集功能。
 
 ## Demo
 ![DEMO](resources/demo.png)
@@ -48,6 +48,18 @@
     ```
     ros2 launch diablo_ros_wrapper diablo_algorithm.launch.py odom_topic:=/odom depth_topic:=/camera/depth/image_raw
     ```
+
+## 数据集收集
+
+切换到`Maps/M_DataGenerationScene`关卡，大纲中选中DatasetCollector，在细节中点击Collect Dataset按钮。数据集收集的参数在编辑器细节中调整。数据集默认保存位置在`Saved/TrainingData`
+![Collect Dataset](resources/Collect_Dataset.jpg)
+
+## 关卡
+
+| 关卡 | 说明 |
+| --- | --- |
+| `Maps/M_Forest` | YOPO-rally推理地图 |
+| `Maps/M_DataGenerationScene` | YOPO-rally数据集收集地图 |
 
 ## 插件子模块配置（维护者）
 
